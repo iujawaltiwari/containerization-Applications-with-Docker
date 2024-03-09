@@ -12,7 +12,8 @@ Step2:- Check Docker Images.
 
 ```
 docker images
-``
+
+```
 
 
 2. Docker Volumes
