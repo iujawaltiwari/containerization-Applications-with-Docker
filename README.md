@@ -220,6 +220,12 @@ docker push iujawaltiwari/flask-app
 
 2. Docker Volumes
 
+Volume is use to store the data after you kill the docker container, your data will be safe in docker volume 
+
+```
+docker run -d -v $(pwd):/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=test@123 mysql:5.7
+```
+
 3. Docker Networks
 
 4. Multi Tier Application with a database 
