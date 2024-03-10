@@ -230,11 +230,13 @@ docker run -d -v $(pwd):/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=test@
 
 <h5> Types Of Docker Networks </h5>
 
-<p> 1. Bridge </p>
-<p> 2. default </p>
-<p> 3. Macvlan </p>
+<p> 1. Bridge Network </p>
+<p> 2. default Network </p>
+<p> 3. Macvlan Network </p>
 <p> 4. IPvlan networking </p>
-<p> 5. user default </p>
+<p> 5. user defaul </p>
+<p> 6. Host Network </p>
+<p> 7. Overlay Network </p>
 
 4. Multi Tier Application with a database 
 
