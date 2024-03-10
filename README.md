@@ -228,6 +228,14 @@ docker run -d -v $(pwd):/var/lib/mysql --name mysql -e MYSQL_ROOT_PASSWORD=test@
 
 3. Docker Networks
 
+<h5> Types Of Docker Networks </h5>
+
+<p> 1. Bridge </p>
+<p> 2. default </p>
+<p> 3. Macvlan </p>
+<p> 4. IPvlan networking </p>
+<p> 5. user default </p>
+
 4. Multi Tier Application with a database 
 
 5. Multi Stage Docker Build ( 1GB ---> 200 MB) Comprased
